@@ -1,11 +1,14 @@
 package edu.csuft.yzp.spider;
 
 /**
- * ³ÌĞòµÄÈë¿Ú
+ * ç¨‹åºçš„å…¥å£
  * 
- * @author GeniusÒüÔóÆ½
+ * @author Geniuså°¹æ³½å¹³
  *
  */
 public class App {
-
+	//alt + / 
+	public static void main(String[] args) {
+		
+	}
 }
