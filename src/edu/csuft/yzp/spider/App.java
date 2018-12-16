@@ -39,9 +39,12 @@ public class App {
 				Film f = new Film();
 				
 				//每一部影片
-				Element t = e.select(".title").first();
+				Elements id=e.select(".pic em");
+				String t = e.select(".title").first().text();
 				String num = e.select(".star span").last().text();
-				System.out.println(t.text() + "  " + num.replace("人评价", ""));
+				Elements rating = e.select(".star .rating_num");
+				String quote = e.select(".quote span").text();
+				System.out.println(id.text()+" " +t+"  "+rating.text()+"  "+ num+ "  "+quote);
 				
 //				f.id
 //				f.title
